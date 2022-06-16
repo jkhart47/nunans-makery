@@ -14,10 +14,9 @@ export const Box = styled.div`
   align-items: center;
 `;
 
-export default function Home() {
-  return (
-   
-    <TeaserContainer>
+  export default function HomePage() {
+    return (
+      <TeaserContainer>
       <Image alt="bags4carousel" src={bags} layout="intrinsic"/>
       <TextContainer>
         <Title>Custom Made Collections</Title>
@@ -25,9 +24,10 @@ export default function Home() {
           Adventures in upcycling and creativity ;
         </Description>
       </TextContainer>
+      <main>
+        <h1>The Art of Fine Goods!</h1>
+      </main>
     </TeaserContainer>
-  
-  );
-
-
-}
+    )
+ 
+ }

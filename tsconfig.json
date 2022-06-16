@@ -16,6 +16,6 @@
     "incremental": true
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx",
-    "components/MenuItem", "components/GridGallery/grid-gallery.ys", "pages/destack.js", "pages/destack.js", "pages/api/builder/handle.js"],
+    "components/MenuItem", "pages/api/builder/handle.js", "jest.config.js", "utils.js", "tests/unit/automocking.test.js", "tests/unit/index.test.js", "tests/unit/totes.test.js"],
   "exclude": ["node_modules"]
 }
