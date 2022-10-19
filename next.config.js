@@ -4,7 +4,26 @@ module.exports = {
   swcMinify: true,
   reactStrictMode: true,
   images: {
-    domains: ["www.datocms-assets.com",
-    "cmsg.llc"],
+    domains: ["cmsg.llc", "bonisainc.com"],
+  },
+  future: {
+    webpack5: true
+  },
+  webpack: (config) => {
+    // load worker files as a urls with `file-loader`
+    config.module.rules.unshift({
+      test: /pdf\.worker\.(min\.)?js/,
+      use: [
+        {
+          loader: "file-loader",
+          options: {
+            name: "[contenthash].[ext]",
+            publicPath: "_next/static/worker",
+            outputPath: "static/worker"
+          }
+        }
+      ]
+    });
+    return config;
+    }
   }
-};

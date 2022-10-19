@@ -1,4 +1,4 @@
-//components/DashboardLayout/styles.ts
+//components/HomePageLayout/styles.ts
 
 import styled from "styled-components";
 

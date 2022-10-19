@@ -1,33 +1,55 @@
-import styled from 'styled-components';
-import { TeaserContainer, TextContainer } from '../components/Teaser/styles';
-import { Title } from "../components/Title/title.module";
-import { Description } from '../components/Description/description';
-import Image from "next/image";
-import bags from "../public/bagsforcarousel.png";
+import Head from 'next/head';
+import Script from 'next/script';
+import CategoryCard from '../components/CategoryCard/CategoryCard';
+import styles from '../styles/Home.module.css';
 
-export const Box = styled.div`
-  display: grid;
-  grid-template-columns: 1fr;
-  width: 500px;
-  gap: 20px;
-  margin-top: 100px;
-  align-items: center;
-`;
+export default function Home() {
 
-  export default function HomePage() {
-    return (
-      <TeaserContainer>
-      <Image alt="bags4carousel" src={bags} layout="intrinsic"/>
-      <TextContainer>
-        <Title>Custom Made Collections</Title>
-        <Description>
-          Adventures in upcycling and creativity ;
-        </Description>
-      </TextContainer>
-      <main>
-        <h1>The Art of Fine Goods!</h1>
-      </main>
-    </TeaserContainer>
-    )
- 
- }
+  return (
+    <>
+   <div>
+
+      <Head>
+        <link rel="preconnect" href="https://cdn.snipcart.com" />
+        <link
+          rel="stylesheet"
+          href="https://cdn.snipcart.com/themes/v3.4.0/default/snipcart.css" />
+      </Head>
+
+      <div className={styles.container}>
+
+        <div className={styles.small}>
+          <CategoryCard image="https://cmsg.llc/susan/images/bagsforcarousel.png" name="Totes" />
+          <CategoryCard image="https://cmsg.llc/susan/images/hanger.png" name="Home Decor" />
+          <CategoryCard image="https://cmsg.llc/susan/images/cones.png" name="Seasonal" />
+          <div>
+            <h1>Tote Bags</h1>
+            <h5>Pouches, Sunglass Cases, and more...</h5>
+          </div>
+          <div>
+            <h1>Home Decor</h1>
+            <h5>Hangers, Mobiles, Wash Cloths Towels, and more...</h5>
+          </div>
+          <div>
+            <h1>Seasonal</h1>
+            <h5>Pinecone Wreaths, Piano Wire Christmas Trees, Corkachures</h5>
+          </div>
+        </div>
+      </div>
+      <div
+        id="snipcart"
+        data-api-key="${process.env.SNIPCART_API_KEY}"
+        hidden
+      ></div>
+      <script
+        src="https://cdn.snipcart.com/themes/v3.4.0/default/snipcart.js"
+        async
+      />
+
+   </div>
+    </>
+   
+  )
+
+  };
+

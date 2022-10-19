@@ -1,20 +1,28 @@
 [
   {
-    "id": "paperroute-blue",
+    
+    "id": 1,
     "name": "Blue Paper-route Tote",
     "price": 40.0,
     "imageUrl": "https://cmsg.llc/susan/images/bag-blue-sm.png",
     "description": "Blue and Red Denim"
   },
   {
-    "id": "paperroute-green",
+    "id": 2,
     "name": "Green Paper-route Tote",
     "price": 40.0,
     "imageUrl": "https://cmsg.llc/susan/images/bag-green-sm.png",
     "description": "Green and Yellow Cotton"
   },
   {
-    "id": "paperroute-black",
+    "id": 3,
+    "name": "Yellow Paper-route Tote",
+    "price": 40.0,
+    "imageUrl": "https://cmsg.llc/susan/images/bag-yellow-sm.png",
+    "description": "Yellow and Red Cotton"
+  },
+  {
+    "id": 4,
     "name": "Black Paper-route Tote",
     "price": 40.0,
     "imageUrl": "https://cmsg.llc/susan/images/bag-black-sm.png",

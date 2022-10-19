@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Footer from "../Footer";
 import Header from "../Header";
-import Sidebar from "../Sidebar";
+// import Sidebar from "../Sidebar";
 import { Container, Content, PageContainer } from "../DashboardLayout/styles";
 
 type DashboardLayoutProps = {
@@ -10,20 +10,21 @@ type DashboardLayoutProps = {
 };
 
 export default function DashboardLayout({ children }: DashboardLayoutProps) {
-  const [isOpened, setOpened] = useState(false);
+//  const [isOpened, setOpened] = useState(false);
 
-  const toggleDrawer = () => {
-    setOpened((prev) => !prev);
-  };
+//  const toggleDrawer = () => {
+//    setOpened((prev) => !prev);
+//  };
 
+// <Sidebar isOpened={isOpened} />
+// isOpened={isOpened} toggleDrawer={toggleDrawer} 
   return (
     <Container>
-      <Header isOpened={isOpened} toggleDrawer={toggleDrawer} />
+      <Header/>
       <Content>
-        <Sidebar isOpened={isOpened} />
         <PageContainer>{children}</PageContainer>
       </Content>
-      <Footer />
+
     </Container>
   );
 }

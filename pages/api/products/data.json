@@ -1,0 +1,184 @@
+[
+  {
+    "id": 1,
+    "name": "Blue & Red Paper-route Tote",
+    "category": "totes",
+    "productType": "Paper-route Tote",
+    "imageUrl": "http://cmsg.llc/nunanmakery/images/paper-route-totes/paper-route-tote-denim-small.jpg",
+    "zoomImgSrc": "http://cmsg.llc/nunanmakery/images/paper-route-totes/paper-route-tote-denim-large.jpg",
+    "style": "Blue and Red Denim",
+    "description": "Modelled after your childhood paper-route bags, you will love the go anywhere style of this body forming tote with internal zippered pouch and grommets to secure your favorite items.",
+    "price": 40.00,
+    "features": "17” x 15” body with 40” strap. One interior pocket with zipper closure.  Two grommeted tabs (used for attaching keys, light fobs, or other items purchased separately)." 
+
+  },
+  {
+    "id": 2,
+    "name": "Green Paper-route Tote",
+    "category": "totes",
+    "productType": "Paper-route Tote",
+    "imageUrl": "http://cmsg.llc/nunanmakery/images/paper-route-totes/paper-route-tote-green-small.jpg",
+    "zoomImgSrc": "http://cmsg.llc/nunanmakery/images/paper-route-totes/paper-route-tote-green-large.jpg",
+    "style": "Green Cotton",
+    "description": "Modelled after your childhood paper-route bags, you will love the go anywhere style of this body forming tote with internal zippered pouch and grommets to secure your favorite items.",
+    "price": 40.00,
+    "features": "17” x 15” body with 40” strap. One interior pocket with zipper closure.  Two grommeted tabs (used for attaching keys, light fobs, or other items purchased separately)." 
+
+  },
+  {
+    "id": 3,
+    "name": "Red & Green Paper-route Tote",
+    "category": "totes",
+    "productType": "Paper-route Tote",
+    "imageUrl": "http://cmsg.llc/nunanmakery/images/paper-route-totes/paper-route-tote-red-small.jpg",
+    "zoomImgSrc": "http://cmsg.llc/nunanmakery/images/paper-route-totes/paper-route-tote-red-large.jpg",
+    "style": "Red and Green Cotton",
+    "description": "Modelled after your childhood paper-route bags, you will love the go anywhere style of this body forming tote with internal zippered pouch and grommets to secure your favorite items.",
+    "price": 40.00,
+    "features": "17” x 15” body with 40” strap. One interior pocket with zipper closure.  Two grommeted tabs (used for attaching keys, light fobs, or other items purchased separately)." 
+
+  },
+  {
+    "id": 4,
+    "name": "Black & Silver Paper-route Tote",
+    "category": "totes",
+    "productType": "Paper-route Tote",
+    "imageUrl": "http://cmsg.llc/nunanmakery/images/paper-route-totes/paper-route-tote-black-small.jpg",
+    "zoomImgSrc": "http://cmsg.llc/nunanmakery/images/paper-route-totes/paper-route-tote-black-large.jpg",
+    "style": "Black and Silver Cotton",
+    "description": "Modelled after your childhood paper-route bags, you will love the go anywhere style of this body forming tote with internal zippered pouch and grommets to secure your favorite items.",
+    "price": 40.00,
+    "features": "17” x 15” body with 40” strap. One interior pocket with zipper closure.  Two grommeted tabs (used for attaching keys, light fobs, or other items purchased separately)."
+
+  },
+  {
+    "id": 7,
+    "name": "Denim Glasses Case",
+    "category": "totes",
+    "productType": "Glasses Cases",
+    "imageUrl": "http://cmsg.llc/nunanmakery/images/glasses-cases/glasses-cases-denim-small.jpg",
+    "zoomImgSrc": "http://cmsg.llc/nunanmakery/images/glasses-cases/glasses-cases-denim-large.jpg",
+    "style": "Blue Denim",
+    "description": "Protect and secure sunglasses, reading glasses, or safety glasses from any surface with a fully lined glasses case secured with a zippered closure.  Use the functional case lining to clean your lenses without scratches.",
+    "price": 24.00,
+    "features": "8.5” x 3.5” body. One zippered closure. Lining made from upcycled materials specifically designed for cleaning glasses." 
+
+  },
+  {
+    "id": 8,
+    "name": "Red Sunglasses Case",
+    "category": "totes",
+    "productType": "Glasses Cases",
+    "imageUrl": "http://cmsg.llc/nunanmakery/images/glasses-cases/glasses-cases-red-small.jpg",
+    "zoomImgSrc": "http://cmsg.llc/nunanmakery/images/glasses-cases/glasses-cases-red-large.jpg",
+    "style": "Red and Green Cotton",
+    "description": "Protect and secure sunglasses, reading glasses, or safety glasses from any surface with a fully lined glasses case secured with a zippered closure.  Use the functional case lining to clean your lenses without scratches.",
+    "price": 24.00,
+    "features": "8.5” x 3.5” body. One zippered closure. Lining made from upcycled materials specifically designed for cleaning glasses."
+
+  },
+  {
+    "id": 10,
+    "name": "Denim Zippered Pouches",
+    "category": "totes",
+    "productType": "Zippered Pouches",
+    "imageUrl": "http://cmsg.llc/nunanmakery/images/zippered-pouches/pouch-denim-small.jpg",
+    "zoomImgSrc": "",
+    "style": "Blue Denim",
+    "description": "Protect and secure your favorite items from harsh conditions with a zippered pouch ideal for containing a range of items. From credit cards for shoppers to crayons for artists, only your imagination limits the use of these zippered pouches.",
+    "price": 28.00,
+    "features": "8.5” x 3.5” body. One zippered closure." 
+
+  },
+  {
+    "id": 11,
+    "name": "Red Zippered Pouches",
+    "category": "totes",
+    "productType": "Zippered Pouches",
+    "imageUrl": "https://cmsg.llc/nunanmakery/images/zippered-pouches/pouch-red-small.jpg",
+    "zoomImgSrc": "http://cmsg.llc/nunanmakery/images/zippered-pouches/pouch-red-large.jpg",
+    "style": "Red and Green Cotton",
+    "description": "Protect and secure your favorite items from harsh conditions with a zippered pouch ideal for containing a range of items. From credit cards for shoppers to crayons for artists, only your imagination limits the use of these zippered pouches.",
+    "price": 28.00,
+    "features": "8.5” x 3.5” body. One zippered closure."
+
+  },
+  {
+    "id": 14,
+    "name": "Natural Delicates Hanger",
+    "category": "home decor",
+    "productType": "Delicates Hanger",
+    "imageUrl": "http://cmsg.llc/nunanmakery/images/delicates-hangers/hanger-natural-small.png",
+    "zoomImgSrc": "http://cmsg.llc/nunanmakery/images/delicates-hangers/hanger-natural-large.png",
+    "style": "Reclaimed natural yarn",
+    "description": "On top of a solid wood body, the hand-made crochet covers keep delicate fabrics from sliding off.  Do you have a classic blouse, an inherited treasure, a favorite silky strappy dress worth keeping forever?  These hangers will hold on to your favorite items as long as you do.",
+    "price": 12.00,
+    "features": "17.5” x 7.5” wood frame hanger with adjustable metal hook. One hand-made crochet cover, pre-attached."
+
+  },
+  {
+    "id": 15,
+    "name": "Gold Delicates Hanger",
+    "category": "home decor",
+    "productType": "Delicates Hanger",
+    "imageUrl": "http://cmsg.llc/nunanmakery/images/delicates-hangers/hanger-gold-small.png",
+    "zoomImgSrc": "http://cmsg.llc/nunanmakery/images/delicates-hangers/hanger-gold-large.png",
+    "style": "Gold-colored yarn",
+    "description": "On top of a solid wood body, the hand-made crochet covers keep delicate fabrics from sliding off.  Do you have a classic blouse, an inherited treasure, a favorite silky strappy dress worth keeping forever?  These hangers will hold on to your favorite items as long as you do.",
+    "price": 12.00,
+    "features": "17.5” x 7.5” wood frame hanger with adjustable metal hook. One hand-made crochet cover, pre-attached."
+
+  },
+  {
+    "id": 16,
+    "name": "Red Delicates Hanger",
+    "category": "home decor",
+    "productType": "Delicates Hanger",
+    "imageUrl": "http://cmsg.llc/nunanmakery/images/delicates-hangers/hanger-red-small.png",
+    "zoomImgSrc": "http://cmsg.llc/nunanmakery/images/delicates-hangers/hanger-red-large.png",
+    "style": "Red-colored yarn",
+    "description": "On top of a solid wood body, the hand-made crochet covers keep delicate fabrics from sliding off.  Do you have a classic blouse, an inherited treasure, a favorite silky strappy dress worth keeping forever?  These hangers will hold on to your favorite items as long as you do.",
+    "price": 12.00,
+    "features": "17.5” x 7.5” wood frame hanger with adjustable metal hook. One hand-made crochet cover, pre-attached."
+
+  },
+  {
+    "id": 20,
+    "name": "Oil Rubbed Bronze Towel Hook",
+    "category": "home decor",
+    "productType": "Towel Hooks",
+    "imageUrl": "http://cmsg.llc/nunanmakery/images/towel-hooks/towel-hook-oil-rubbed-bronze-small.jpg",
+    "zoomImgSrc": "http://cmsg.llc/nunanmakery/images/towel-hooks/towel-hook-oil-rubbed-bronze-large.jpg",
+    "style": "Oil Rubbed Bronze",
+    "description": "Made with upcycled housewares, these towel hooks offer a cozy addition to any wet space for various sized towels, washcloths, or hair covers.",
+    "price": 12.00,
+    "features": "9” x 4” hand-made wood frame with three hand-painted daisy drawer knobs."
+
+  },
+  {
+    "id": 21,
+    "name": "White Daisy Towel Hooks",
+    "category": "home decor",
+    "productType": "Towel Hooks",
+    "imageUrl": "http://cmsg.llc/nunanmakery/images/towel-hooks/towel-hook-white-daisy-small.jpg",
+    "zoomImgSrc": "http://cmsg.llc/nunanmakery/images/towel-hooks/towel-hook-white-daisy-large.jpg",
+    "style": "White and Green",
+    "description": "Made with upcycled housewares, these towel hooks offer a cozy addition to any wet space for various sized towels, washcloths, or hair covers.",
+    "price": 12.00,
+    "features": "9” x 4” hand-made wood frame with three hand-painted daisy drawer knobs."
+
+  },
+  {
+    "id": 24,
+    "name": "Pinecone Wreath",
+    "category": "seasonal",
+    "productType": "Pinecone Wreaths",
+    "imageUrl": "http://cmsg.llc/nunanmakery/images/pinecone-wreaths/pinecone-wreath-small.png",
+    "zoomImgSrc": "http://cmsg.llc/nunanmakery/images/pinecone-wreaths/pinecone-wreath-large.png",
+    "style": "California Redwood",
+    "description": "Every year we do a limited edition miniature pine cone wreath as part of our seasonal offerings.  Made from the abandoned cones of a California Redwood on our private property, these pine cone wreaths are 8” in diameter and a wonderful addition to seasonal decorations for windows, doors, trees, and fireplaces.",
+    "price": 17.00,
+    "features": "Hand-stitched 8” wreath made from California Redwood cones abandoned on private property in Monterey, California."
+
+  }
+]

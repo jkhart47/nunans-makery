@@ -1,0 +1,49 @@
+.grid {
+  list-style: none;
+  display: grid;
+  margin: 2em auto;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr;
+
+  max-width: 960px;
+  grid-column-gap: 100px;
+  grid-row-gap: 10px;
+
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.category {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 0.8rem;
+}
+
+.url {
+  /* visited link */
+  color: green;
+}
+
+.text {
+  font-size: 0.8rem;
+}
+
+.button {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.75rem 0;
+  background: transparent;
+  text-transform: uppercase;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.button:hover {
+  background: black;
+  color: white;
+}

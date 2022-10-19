@@ -1,0 +1,5 @@
+@font-face {
+  font-family: "Tangerine";
+  src: local url("../public/fonts/tangerine/Tangerine-Bold.tff") format("truetype");
+  font-weight: 700;
+}

@@ -48,6 +48,11 @@ const MENU_OPTIONS: MenuOption[] = [
         icon: Cases,
         url: "/glassescases",
       },
+      {
+        name: "Zippered Pouches",
+        icon: Cases,
+        url: "/zippouches",
+      },
     ],
   },
   {

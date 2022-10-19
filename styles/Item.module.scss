@@ -1,0 +1,134 @@
+.single_container {
+	margin: 0 0px;
+	display: flex;
+/*	align-items: center; */
+	width: 100%;
+  height: auto;
+	gap: 40px;
+	padding: 0 0px;
+}
+
+@media (max-width: 500px) {
+	.single_container {
+		padding: 0 50px;
+		flex-direction: column;
+	}
+}
+
+.left_section {
+	flex-basis: 50%;
+	height: auto;
+	background-color: #fff;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.left_img {
+  width: 50%;
+  max-height: 75%;
+  margin: 90px auto 0 auto;
+/*  float: left; */
+  object-fit: fill;
+}
+
+.right_section {
+	flex-basis: 50%;
+}
+
+.title {
+	margin: 15px 0;
+	font-size: 30px;
+}
+
+.para {
+	margin: 10px 0;
+}
+
+.price {
+	font-size: 25px;
+}
+
+.button {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  width: 28em;
+  height: 3em;
+  color: white;
+  border-radius: 8px;
+  padding: 6px 20px;
+  border: none;
+  background-color: blueviolet;
+}
+
+.backbutton {
+  background: none!important;
+  border: none;
+  padding: 6px 20px!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  position: relative;
+  cursor: pointer;
+
+  .iiz__img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    pointer-events: none;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .iiz {
+    max-width: 100%;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    cursor: zoom-in;
+  }
+
+  .iiz__zoom-img {
+    width: auto !important;
+    max-width: none !important;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    display: block;
+  }
+
+  .iiz__zoom-largeImage {
+    position: absolute;
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+    cursor: -webkit-zoom-out;
+    cursor: zoom-out;
+    -ms-touch-action: none;
+    touch-action: none;
+  }
+
+  .image_container {
+
+    width: 100%;
+  
+    > div {
+      position: unset !important;
+    }
+  
+    .image {
+      object-fit: contain;
+      width: 100% !important;
+      position: relative !important;
+      height: unset !important;
+    }
+  }
+  
+
+}

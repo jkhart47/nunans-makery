@@ -15,7 +15,13 @@
     "jsx": "preserve",
     "incremental": true
   },
+  "exclude": ["node_modules"],
+
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx",
-    "components/MenuItem", "pages/api/builder/handle.js", "jest.config.js", "utils.js", "tests/unit/automocking.test.js", "tests/unit/index.test.js", "tests/unit/totes.test.js"],
-  "exclude": ["node_modules"]
+    "components/Footer", "components/Footer/index.tsx",
+    "components/MenuItem", "jest.config.js", "utils.js", "tests/unit/automocking.test.js", "tests/unit/index.test.js", "tests/unit/totes.test.js", "components/CategoryCard/CategoryCard.jsx", "pages/item.jsx", "pages/contact.jsx", "pages/shop.jsx", "pages/_app.tsx", "pages/api/products/index.js"
+  ]
+
 }
+
+
