@@ -41,7 +41,7 @@ jobs:
         echo "::
       - name: Set output
         run: echo "{name}={value}" >> $GITHUB_OUTPUT name=command::install"
-          echo "::
+        echo "::
       - name: Set output
         run: echo "{name}={value}" >> $GITHUB_OUTPUT name=runner::yarn"
         exit 0
