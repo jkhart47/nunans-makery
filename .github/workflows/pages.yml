@@ -44,14 +44,14 @@ jobs:
         echo "::
       - name: Set output
         run: echo "{name}={value}" >> $GITHUB_OUTPUT name=runner::yarn"
-        exit 0
-        elif [ -f "${{ github.workspace }}/package.json" ]; then
-            echo "::
-      - name: Set output
-        run: echo "{name}={value}" >> $GITHUB_OUTPUT name=manager::npm"
+          exit 0
+        elif: [ -f "${{ github.workspace }}/package.json" ]; then
             echo ":
       - name: Set output
-        run: echo "{name}={value}" >> $GITHUB_OUTPUT name=command::ci"
+        run: echo " >> $GITHUB_OUTPUT name=manager::npm"
+            echo ":
+      - name: Set output
+        run: echo " >> $GITHUB_OUTPUT name=command::ci"
             echo ":
       - name: Set output
         run: echo "{name}={value}" >> $GITHUB_OUTPUT name=runner::npx --no-install"
