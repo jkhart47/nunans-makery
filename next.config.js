@@ -5,8 +5,7 @@ module.exports = {
   reactStrictMode: true,
   images: {
     domains: ["cmsg.llc", "bonisainc.com"],
-    loader: 'akamai',
-    path: '',
+
   },
   webpack: (config) => {
     // load worker files as a urls with `file-loader`
