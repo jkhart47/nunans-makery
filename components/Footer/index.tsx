@@ -45,7 +45,7 @@ function FooterApp() {
     <BottomBar>
     <Footer>
     <Policy>
-    <PolicyRow>Copyright &copy; {new Date().getFullYear()} Nunan's Makery</PolicyRow>
+    <PolicyRow>Copyright &copy; {new Date().getFullYear()} Nunan&apos;'s Makery</PolicyRow>
   </Policy> 
 
   <Link href="/disclaimer" passHref>

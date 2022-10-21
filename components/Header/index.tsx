@@ -18,7 +18,7 @@ export default function Header() {
   
   return (
     <HeaderContainer>
-      <TitleContainer>Nunan's Makery</TitleContainer>
+      <TitleContainer>Nunan&apos;'s Makery</TitleContainer>
     </HeaderContainer>
   );
 
