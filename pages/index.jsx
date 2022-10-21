@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Script from 'next/script';
 import CategoryCard from '../components/CategoryCard/CategoryCard';
 import styles from '../styles/Home.module.css';
 
