@@ -3,8 +3,6 @@
 module.exports = {
   swcMinify: true,
   reactStrictMode: true,
-  basePath: "/nextjs-pages",
-  assetPrefix: "/nextjs-pages",
   images: {
     domains: ["cmsg.llc", "bonisainc.com"],
     loader: 'akamai',
