@@ -1,6 +1,6 @@
 //components/Footer/index.tsx
 import React from "react";
-import NextLink from 'next/link';
+import Link from "next/link";
 
 import styled from 'styled-components'
 //import styles from "./Footer.module.css" ;
@@ -48,9 +48,9 @@ function FooterApp() {
     <PolicyRow>Copyright &copy; {new Date().getFullYear()} Nunan's Makery</PolicyRow>
   </Policy> 
 
-  <NextLink href="/disclaimer" passHref>
+  <Link href="/disclaimer" passHref>
     <BlackLink>Legal Notice</BlackLink>
-  </NextLink>
+  </Link>
 
   </Footer>
   </BottomBar>
