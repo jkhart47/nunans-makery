@@ -1,15 +1,14 @@
 {
   "extends": "next/core-web-vitals",
   "rules": {
-    "react/no-unknown-property": [
+    "react/no-unescaped-entities": [ 
       2,
       {
         "ignore": [
           "jsx"
         ]
       }
-      ]
-    }
-  
+    ]
+  }
 
 }
