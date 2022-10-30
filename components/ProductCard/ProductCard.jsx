@@ -21,7 +21,7 @@ const ProductCard = ({ product }) => {
    
     <div className={styles.grid} >
       <Image src={imageUrl} width="440px" height="740px"
-        layout="responsive" alt=""/>
+        layout="responsive" alt="" quality={80} priority/>
       <h4>{product.id}</h4>
       <h4 className={styles.title}>{name}</h4>
       <h5 className={styles.category}>{product.category}</h5>

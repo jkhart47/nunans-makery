@@ -18,6 +18,7 @@
   "exclude": ["node_modules"],
 
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx",
+    "pages/document.tsx",
     "components/Footer", "components/Footer/index.tsx",
     "components/Header", "components/Header/index.tsx",
     "components/MenuItem", "jest.config.js", "utils.js", "tests/unit/automocking.test.js", "tests/unit/index.test.js", "tests/unit/totes.test.js", "components/CategoryCard/CategoryCard.jsx", "pages/item.jsx", "pages/contact.jsx", "pages/shop.jsx", "pages/_app.tsx", "pages/api/products/index.js"

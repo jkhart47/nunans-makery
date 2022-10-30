@@ -2,12 +2,11 @@
   list-style: none;
   display: grid;
   margin: 2em auto;
-  grid-template-columns: 1fr;
+  grid-template-columns: 200px, 200px, 200px;
   grid-template-rows: 3fr;
-
   max-width: 960px;
-  grid-column-gap: 100px;
-  grid-row-gap: 10px;
+  column-gap: 100px;
+  row-gap: 20px;
 
 }
 

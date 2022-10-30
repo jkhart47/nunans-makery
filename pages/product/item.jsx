@@ -1,8 +1,7 @@
 //item.jsx
 import Head from "next/head";
 import { useRouter } from "next/router";
-import { useState, useEffect } from "react";
-// import Image from "next/image";
+import React from "react";
 import InnerImageZoom from 'react-inner-image-zoom';
 import 'react-inner-image-zoom/lib/InnerImageZoom/styles.css';
 import styles from '../../styles/Item.module.scss';
@@ -11,49 +10,41 @@ export default function ProductPage() {
   
   const router = useRouter();
 
-//  useEffect(() => {
-//    if(!router.isReady) return;
-//      console.log("Testing");
-//    return () => {
-      // Side Effect Cleanup
-//    }
-//  });
-  
-  useEffect(() => {
-    if(!router.isReady) {
-      return
-    }else {
-      console.log("Success");
-    }
-    return () => {
-      // Side Effect Cleanup
-    }
-  }, [router.isReady]);
-  
-  const query = router.query;
+//  const  = router.query;
+  const {
+    query: { id, name, description, price, imageUrl,
+    zoomImage, features},
+  } = router
 
-  console.log("item query is: ", query)
+  const props = {
+    id,
+    name,
+    description,
+    price,
+    imageUrl,
+    zoomImage,
+    features,
+  };
 
-  const id = query.id;
-  console.log("item id is: ", id)
-  const name = query.name;
-  console.log("item name is: ", name)
-  const description = query.description;
-  const price = query.price
-  console.log("item price is: ", query.price)
-  const imageSrc = query.imageUrl;
-  const largeImage = query.zoomImage;
-  console.log("large image is: ", largeImage)
-  const features = query.features;
+//  const query = router.query;
 
-  const productFeatures = JSON.stringify(features);
-//  console.log("This is the value of productFeatures: ", productFeatures);
+//  console.log("item query is: ", query)
+
+  console.log("item id is: ", props.id);
+  console.log("item name is: ", props.name);
+  console.log("item description is: ", props.description);
+  console.log("item price is: ", props.price);
+  console.log("imageUrl is: ", imageUrl);
+  console.log("item features are: ", props.features);
+
+  const productFeatures = JSON.stringify(props.features);
+  console.log("This is the value of productFeatures: ", productFeatures);
 
   return ( 
     
     <div>
       <Head>
-          <title>{name}</title>
+          <title>{props.name}</title>
       </Head>
     
       <div className={styles.single_container}>
@@ -61,9 +52,12 @@ export default function ProductPage() {
 
             <div>
               <InnerImageZoom
-                src={imageSrc}
-                zoomSrc={largeImage} className={styles.iiz__zoom-largeImage}
-                width="380px"
+                src={props.imageUrl} alt="Product Image Small" placeholder= "blur"
+                zoomSrc={props.zoomImage}
+                width={240}
+                height={320}
+                quality={80}
+                priority
                 fullscreenOnMobile={true}
                 moveType="drag"
                 zoomScale={0.9}
@@ -72,30 +66,28 @@ export default function ProductPage() {
             </div>
    
         </div>
-
         <div className={styles.right_section}
-          key={id}
+          key={props.id}
         >
-          
-          <h3 className={styles.title}>{name}</h3>
-          <p className={styles.price}>${price}</p>
+          <h3 className={styles.title}>{props.name}</h3>
+          <p className={styles.price}>${props.price}</p>
         </div>
         <div className={styles.para} >
-            <p> {description} </p>
+            <p> {props.description} </p>
             <br></br>
             <h1>Product Features:</h1>
             <p> {productFeatures} </p>
         </div>
-        <button
-          className={`snipcart-add-item ${styles.button}`}
-          data-item-id={id}
-          data-item-name={name}
-          data-item-price={price}
-          data-item-description = {description}
-          data-item-image ={imageSrc}   
-          >
-            Add to Cart
+        
+        <button className={`snipcart-add-item ${styles.button}`}
+          data-item-id={props.id}
+          data-item-image={props.imageUrl}
+          data-item-name={props.name}
+          data-item-price={props.price}  
+        >
+          Add to Cart
         </button>
+        
       </div>
       {router.pathname !== "/" && (
         <button type="button" className={styles.backbutton}
