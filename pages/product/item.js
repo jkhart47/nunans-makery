@@ -7,7 +7,7 @@ import 'react-inner-image-zoom/lib/InnerImageZoom/styles.css';
 import styles from '../../styles/Item.module.scss';
 
 export default function ProductPage() {
-  
+
   const router = useRouter();
 
 //  const  = router.query;
@@ -41,7 +41,7 @@ export default function ProductPage() {
   console.log("This is the value of productFeatures: ", productFeatures);
 
   return ( 
-    
+    <>
     <div>
       <Head>
           <title>{props.name}</title>
@@ -79,15 +79,17 @@ export default function ProductPage() {
             <p> {productFeatures} </p>
         </div>
         
+      <div>
         <button className={`snipcart-add-item ${styles.button}`}
           data-item-id={props.id}
-          data-item-image={props.imageUrl}
           data-item-name={props.name}
-          data-item-price={props.price}  
+          data-item-price={props.price}
+          data-item-image={props.imageUrl}  
         >
           Add to Cart
         </button>
-        
+      </div>
+
       </div>
       {router.pathname !== "/" && (
         <button type="button" className={styles.backbutton}
@@ -96,7 +98,7 @@ export default function ProductPage() {
         </button>  
       )}
     </div>
-
+    </>
  
   )
         

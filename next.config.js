@@ -1,12 +1,17 @@
-/** @type {import('next').NextConfig} */
+  /*
+  /** @type {import('next').NextConfig} 
+  */
 
-module.exports = {
+ const nextConfig = {
   swcMinify: true,
   reactStrictMode: true,
   images: {
     domains: ["cmsg.llc", "bonisainc.com"],
-
   },
+  compiler: {
+    styledComponents: true,
+  },
+
   webpack: (config) => {
     // load worker files as a urls with `file-loader`
     config.module.rules.unshift({
@@ -22,6 +27,8 @@ module.exports = {
         }
       ]
     });
-    return config;
-    }
+    return config
   }
+  
+}
+module.exports = nextConfig
