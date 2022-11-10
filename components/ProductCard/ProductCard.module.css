@@ -1,14 +1,17 @@
-.grid {
-  list-style: none;
+.container {
   display: grid;
-  margin: 2em auto;
-  grid-template-columns: 200px, 200px, 200px;
-  grid-template-rows: 3fr;
-  max-width: 960px;
-  column-gap: 100px;
-  row-gap: 20px;
-
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  grid-column-gap: 50px;
+  grid-row-gap: 10px; 
 }
+
+.item {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
+
 
 .title {
   font-size: 1rem;

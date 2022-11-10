@@ -1,4 +1,4 @@
-//item.jsx
+//item.js
 import Head from "next/head";
 import { useRouter } from "next/router";
 import React from "react";
@@ -10,7 +10,6 @@ export default function ProductPage() {
 
   const router = useRouter();
 
-//  const  = router.query;
   const {
     query: { id, name, description, price, imageUrl,
     zoomImage, features},
@@ -25,10 +24,6 @@ export default function ProductPage() {
     zoomImage,
     features,
   };
-
-//  const query = router.query;
-
-//  console.log("item query is: ", query)
 
   console.log("item id is: ", props.id);
   console.log("item name is: ", props.name);
@@ -78,18 +73,17 @@ export default function ProductPage() {
             <h1>Product Features:</h1>
             <p> {productFeatures} </p>
         </div>
-        
-      <div>
-        <button className={`snipcart-add-item ${styles.button}`}
-          data-item-id={props.id}
-          data-item-name={props.name}
-          data-item-price={props.price}
-          data-item-image={props.imageUrl}  
-        >
-          Add to Cart
-        </button>
-      </div>
 
+        <div>
+          <button className={`snipcart-add-item ${styles.button}`}
+            data-item-id={props.id}
+            data-item-name={props.name}
+            data-item-price={props.price}
+            data-item-image={props.imageUrl}  
+          >
+            Add to Cart
+          </button>
+        </div>
       </div>
       {router.pathname !== "/" && (
         <button type="button" className={styles.backbutton}

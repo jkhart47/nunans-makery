@@ -18,16 +18,18 @@ const ProductCard = ({ product }) => {
   console.log("product data is: ", data)
   
   return (
-   
-    <div className={styles.grid} >
-      <Image src={imageUrl} width="440px" height="740px"
-        layout="responsive" alt="" quality={80} priority/>
-      <h4>{product.id}</h4>
-      <h4 className={styles.title}>{name}</h4>
-      <h5 className={styles.category}>{product.category}</h5>
-      <h5 className={styles.category}>{product.productType}
-      </h5>
-      <p>$ {price} </p>
+    
+      <div className={styles.container}>
+        <div className={styles.item}>
+        <Image src={imageUrl} width="400" height="640"
+          layout="responsive" alt="" quality={80} priority/>
+        <h4>{product.id}</h4>
+        <h4 className={styles.title}>{name}</h4>
+        <h5 className={styles.category}>{product.category}</h5>
+        <h5 className={styles.category}>{product.productType}
+        </h5>
+        <p>$ {price} </p>
+      </div>
 
       <Link 
         href= {{
